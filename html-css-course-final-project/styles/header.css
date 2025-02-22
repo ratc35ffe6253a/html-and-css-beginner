@@ -1,0 +1,25 @@
+.header {
+  height: 55px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.left-section {
+  background-color: aliceblue;
+  width: 150px;
+}
+
+.middle-section {
+  background-color: aqua;
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 500px;
+}
+
+.right-section {
+  background-color: aquamarine;
+  width: 200px;
+}
