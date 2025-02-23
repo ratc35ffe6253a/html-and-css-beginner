@@ -27,7 +27,29 @@
     bottom: 0;
     top: 50px;
     width: 72px;
-  ">sidebar</div>
+    z-index: 1;
+  ">sidebar
+
+    <div style="
+      position: absolute;
+      background-color: red;
+      color: white;
+      right: 0px;
+      top: 0px;
+    ">
+      X
+    </div>
+  </div>
+
+  <div style="
+    position: absolute;
+    background-color: red;
+    color: white;
+    right: 10px;
+    top: 10px;
+  ">
+    absolute
+  </div>
 
   <div style="
     background-color: lightblue;
@@ -40,6 +62,17 @@
     background-color: lightcoral;
     width: 200px;
     height: 200px;
-  ">div 2</div>
+    position: relative;
+  ">div 2
+    <div style="
+      position: absolute;
+      background-color: black;
+      color: white;
+      bottom: 10px;
+      right: 10px;
+    ">
+      5:00
+    </div>
+  </div>
 </body>
 </html>
